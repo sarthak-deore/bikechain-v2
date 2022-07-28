@@ -70,10 +70,11 @@ export default function AdminTotals() {
   } = useForm();
 
   const onSubmit = async () => {
-    await withdrawToOwner();
     toast.success("Withdrawal initiated", {
       position: "top-right",
     });
+    await withdrawToOwner();
+
     await getBalance();
     await getOwnerBalance();
   };
