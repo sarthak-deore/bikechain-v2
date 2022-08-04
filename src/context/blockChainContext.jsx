@@ -199,9 +199,6 @@ export const BlockChainProvider = ({ children }) => {
   const checkOut = async () => {
     try {
       if (currentAccount) {
-        toast.success("Checkout initiated", {
-          position: "top-right",
-        });
         const checkOut = await contract.checkOut(currentAccount);
         await checkOut.wait();
         await getRenter();
@@ -216,9 +213,6 @@ export const BlockChainProvider = ({ children }) => {
   const checkIn = async () => {
     try {
       if (currentAccount) {
-        toast.success("Check in initated!", {
-          position: "top-right",
-        });
         const checkIn = await contract.checkIn(currentAccount);
         await checkIn.wait();
         await getRenter();
