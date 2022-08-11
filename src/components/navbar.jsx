@@ -1,13 +1,10 @@
 import {
   Box,
   Flex,
-  Text,
-  IconButton,
   Button,
   Stack,
   useColorModeValue,
   useBreakpointValue,
-  useDisclosure,
   Link,
 } from "@chakra-ui/react";
 
@@ -80,5 +77,3 @@ export default function Navbar() {
     </Box>
   );
 }
-
-const NAV_ITEMS = [];

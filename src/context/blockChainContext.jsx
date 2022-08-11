@@ -255,6 +255,7 @@ export const BlockChainProvider = ({ children }) => {
     getRenterBalance();
     getDue();
     getTotalDuration();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentAccount]);
 
   return (

@@ -12,7 +12,7 @@ import { RiMoneyDollarCircleFill } from "react-icons/ri";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
 
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import PayForm from "./payForm";

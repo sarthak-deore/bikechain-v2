@@ -11,7 +11,7 @@ import {
 import { useContext } from "react";
 import { BlockChainContext } from "../context/blockChainContext";
 
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function RenterForm() {

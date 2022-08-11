@@ -3,6 +3,7 @@ import Home from "./components/home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Dashboard from "./components/dashboard";
 import AdminPanel from "./components/adminPanel";
+import React from "react";
 
 function App() {
   return (
