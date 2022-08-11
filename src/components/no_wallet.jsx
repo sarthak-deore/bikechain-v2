@@ -2,10 +2,7 @@ import { Box, Heading, Container, Text, Button, Stack } from "@chakra-ui/react";
 
 export default function NoWallet() {
   const redirect = () => {
-    window.location.replace(
-      "https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn",
-      "_blank"
-    );
+    window.location.replace("https://metamask.io/download/", "_blank");
   };
   return (
     <>
