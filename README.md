@@ -1,6 +1,6 @@
 Migrating from ViteJS to React-Create-App
 
-Check it out: https://bike.r1.clouderdog.online/
+Check it out: https://bikechain.scaler.icu/
 
 >npm install
 
